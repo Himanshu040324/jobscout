@@ -1,0 +1,23 @@
+search:
+  cities: [Delhi, Gurugram, Noida, Bengaluru]
+  roles: [Software Engineer, SDE, Backend Engineer]
+  seniority: [intern, entry]
+  remote_ok: true
+  excluded_keywords: []
+  excluded_companies: []
+
+thresholds:
+  min_match_percent: 60
+  max_jobs_in_digest: 15
+  max_job_age_days: 14
+  shortlist_size: 40
+
+llm:
+  max_calls_per_run: 60
+  cost_ceiling_micro_usd: 500000   # 0.50 USD
+
+email:
+  subject_prefix: "JobScout"
+  smtp_host: smtp.gmail.com
+  smtp_port: 587
+  display_timezone: Asia/Kolkata

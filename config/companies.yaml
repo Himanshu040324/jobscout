@@ -1,0 +1,9 @@
+# Phase 2 fills this with ~20 companies you would genuinely apply to.
+# I'm leaving it empty because a board slug must come from a real company page,
+# not from memory. Format:
+#
+#   companies:
+#     - name: <Company Name>
+#       ats: greenhouse        # greenhouse | lever | ashby | workable | smartrecruiters
+#       board_slug: <slug-from-their-careers-URL>
+companies: []
