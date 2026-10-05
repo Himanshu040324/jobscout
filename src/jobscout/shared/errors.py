@@ -7,3 +7,11 @@ class JobScoutError(Exception):
 
 class ConfigError(JobScoutError):
     """Raised when a config file is missing, unreadable, or fails validation."""
+
+
+class LLMError(JobScoutError):
+    """Raised when an LLM call fails or returns unusable output."""
+
+
+class ResumeError(JobScoutError):
+    """Raised when resume reading, parsing or storage fails."""

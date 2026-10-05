@@ -1,0 +1,19 @@
+Test Person
+test.person@example.com | +91 00000 00000 | Delhi, India
+
+EDUCATION
+Example Institute of Technology, B.Tech in Mathematics and Computing, 2023 - 2027
+CGPA: 7.5
+
+SKILLS
+Languages: Python, JavaScript, SQL
+Frameworks: React, Node.js
+Tools: Git, Docker
+
+PROJECTS
+Task Tracker
+Built a task tracking web app using React and Node.js with a PostgreSQL backend.
+Reduced page load time by 40% by adding response caching.
+
+Chat Service
+Implemented a real-time chat service with Socket.IO and Redis for message fan-out.
